@@ -1,0 +1,12 @@
+#Oliver{
+	width: 960px;
+	background-color:blue;
+}
+.kids{
+	width:100px;
+	height:100px;
+	margin-bottom:10px;
+	background-color:red;
+	float:left; 
+}
+

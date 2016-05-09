@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Getting and storing feedback from user!</title>
+    </head>   
+    <body>
+        <h1 style="color: red">Content</h1>
+    </body> 
+        <script>
+            var element = prompt ("What elment do you want printed?");
+            var color = prompt ("What color do you want it printed in?");
+            var TimesPrinted = prompt ("How many times do you wanted printed?");
+            var WhatToSay = prompt ("What string do you want printed?");
+        
+
+            var htmlString = ""; 
+            for (var i = 0; i < TimesPrinted; i++){
+                htmlString += "<"+element+">"+WhatToSay+"</"+element+">";
+
+            }
+            console.log(htmlString);
+            document.boy.innerHTML = htmlString;
+        </script>
+  
+</html>
+
+
+<!-- build for loop -->
+<!-- build a html string for loop, that is an empty string "" -->
+<!-- The content  -->
+
+<!--     <body>
+<!-- What color do you want to print? -->
+<!-- What number of items do you want to print? -->
+<!-- What element can you pick? -->
+<!-- What element do you want to print? -->
+<!--         <div id="Oliver">
+            <div class="kids"></div>
+            <div class="kids"></div>
+            <div class="kids"></div>
+            <div class="clear"></div>
+       </div>
+   </body> --> -->

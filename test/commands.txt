@@ -1,0 +1,5 @@
+Write the commands you used to do the above and save them in commands.txt. Then upload it below!
+
+For the move file I think is all you want, let me know if not.
+
+mv /Desktop/EveningAlgorithms/test/index_2.html /Desktop/EveningAlgorithms/destination

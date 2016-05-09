@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+.game{
+	background-color: black;
+	display: inline-block;
+}
+.row{
+	height: 20 px;
+}
+
+.row div{
+	height: 20 px;
+	width: 20 px;
+	display: inline-block;
+
+}
+
+.wall{
+	background-color: red;
+
+img{
+	
+}
+
+}
+
+.coin{
+	background-image: url('coin.gif');
+	background-size: 20 px 20px;
+}
+
+.pacman{
+	background-image: url('pacman.gif');
+	background-size: 20 px 20px;
+}
